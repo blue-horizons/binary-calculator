@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Binary/ Denary Converter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="intro">
+        <h1>Binary/ Denary Converter</h1>
+        <p1>Design, code, test and evaluate a program in JavaScript that will convert between binary and
+            decimal.<br><br>
+            For the decimal to binary converter the program should accept a positive value and output
+            the binary equivalent. The system need only be tested for values up to 255</p1>
+        <br><br>
+    </div>
+
+    <div id="input">
+        <p2>Input Here:</p2>
+        <br>
+        <p2 id="outputMessage" class="errorText"></p2>
+        <input type="text" id="textInput"><button onclick="runfull()">Submit</button>
+        <br><br><br>
+        Convert to:<br>
+        <input type="radio" name="number" value="true">
+        <p2>Binary</p2>
+        <input type="radio" name="number" value="false">
+        <p2>Denary</p2>
+
+    </div>
+
+    <div id="output">
+        <p2>Result</p2>
+        <p2 id="outputBox"></p2>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.errorText {
+    color: red;
+    font-weight: bold;
+}
